@@ -7,9 +7,11 @@ import requests
 # Write directly to the app
 st.title(f":cup_with_straw: Customize Your Smooth! :cup_with_straw:")
 st.write(
-  """Choose the fruits you want in your custom Smoothie!
+  """
+  Choose the fruits you want in your custom Smoothie!
   """
 )
+
 name_on_order = st.text_input("Name on Smoothie")
 st.write("The name on your Smoothie will be", name_on_order)
 
